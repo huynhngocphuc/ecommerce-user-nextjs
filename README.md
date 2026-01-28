@@ -42,7 +42,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production (generates static HTML in `out/` directory)
-- `npm start` - ⚠️ Not available for static export (use a static file server instead)
+- `npm start` - Serve the production build locally (requires running `npm run build` first)
 - `npm run lint` - Run ESLint
 
 ## Deployment
