@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
 import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "E-commerce Store",
+  description: "Your online shopping destination",
+};
 
 export default function RootLayout({
   children,
@@ -7,10 +13,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <title>E-commerce Store</title>
-        <meta name="description" content="Your online shopping destination" />
-      </head>
       <body className="antialiased">
         {children}
       </body>

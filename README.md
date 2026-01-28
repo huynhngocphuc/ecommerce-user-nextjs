@@ -2,7 +2,7 @@
 
 A modern e-commerce website built with Next.js 16, React 19, TypeScript, and Tailwind CSS.
 
-**Note:** This project is configured for **client-side rendering only** using Next.js static export.
+**Note:** This project is configured for **client-side only rendering** using Next.js static export. All pages are pre-rendered at build time and served as static HTML files.
 
 ## Getting Started
 
